@@ -1,7 +1,11 @@
 /* CS261- Assignment 1 - Q.1*/
-/* Name:
- * Date:
- * Solution description:
+/* Name:Brandon Swanson
+ * Date:10/1/14
+ * Solution description: I used a simple solution for the generating of unique random
+ * IDs,  I maintained a list of the possible IDs and as I moved through the list of 10
+ * students I chose IDs from i to n (i being the number of students already assigned)
+ * and after choosing an id number replaced that index with the value currently in 
+ * position i.
  */
  
 #include <stdio.h>

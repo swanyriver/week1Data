@@ -1,7 +1,9 @@
 /* CS261- Assignment 1 - Q.5*/
-/* Name:
- * Date:
- * Solution description:
+/* Name:Brandon Swanson
+ * Date:10/1/14
+ * Solution description:I used the ctype.h toupper and tolower
+ * functions because they work without error on numerics and need no
+ * checking for the case of the character before conversion
  */
  
 #include <stdio.h>

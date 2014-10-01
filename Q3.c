@@ -1,7 +1,7 @@
 /* CS261- Assignment 1 - Q.3*/
-/* Name:
- * Date:
- * Solution description:
+/* Name:Brandon Swanson
+ * Date:10/1/14
+ * Solution description: I chose to use Insertion sort for this problem
  */
  
 #include <stdio.h>
