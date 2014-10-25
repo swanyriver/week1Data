@@ -9,25 +9,26 @@
 #include <stdbool.h>
 #include <ctype.h>
 
-/*converts ch to upper case, assuming it is in lower case currently*/
-char toUpperCase(char ch){
-     return ch-'a'+'A';
-}
-
-/*converts ch to lower case, assuming it is in upper case currently*/
-char toLowerCase(char ch){
-     return ch-'A'+'a';
-}
-
 void sticky(char* word){
      /*Convert to sticky caps*/
-    bool up = true;
+    /*bool up = true;
     for(int i=0; word[i]!='\0';i++){
         if(up) word[i] = toupper(word[i]);
         else word[i] = tolower(word[i]);
 
         up=!up;
+    }*/
+
+
+
+    int lower=0;
+    for(int i=0; word[i]!='\0';i++){
+       if(lower) word[i]|=32;
+       else word[i]&=95;
+       lower=!lower;
     }
+
+    //printf("%b",!32);
 }
 
 
