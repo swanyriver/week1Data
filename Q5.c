@@ -21,7 +21,7 @@ void sticky(char* word){
         up=!up;
     }*/
 
-
+    //brandons first bitwise
 
     int lower=0;
     for(int i=0; word[i]!='\0';i++){
