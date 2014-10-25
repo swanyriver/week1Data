@@ -1,6 +1,6 @@
 /* CS261- Assignment 1 - Q. 0*/
-/* Name:
- * Date:
+/* Name:Brandon Swanson
+ * Date:10/1/14
  * Solution description:
  */
  

@@ -1,7 +1,8 @@
 /* CS261- Assignment 1 - Q.4*/
-/* Name:
- * Date:
- * Solution description:
+/* Name:Brandon Swanson
+ * Date:10/1/14
+ * Solution description: For this problem i was able to re-use many of the functions
+ * previously written in the earlier problems
  */
  
 #include <stdio.h>
